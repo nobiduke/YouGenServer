@@ -40,7 +40,7 @@ app.post('/addProf', urlencodedParser, (req, res)=>{
         return;
     }
     let profile = JSON.parse(req.body.profile)
-    profile['id'] = data.currentID;
+    profile['id'] = toString(data.currentID);
     data.currentID += 1;
     data.profiles[profile.id] = profile;
     res.send(`Added profile with name ${profile.name}`);
