@@ -1,0 +1,26 @@
+{
+  "name": "yougenserver",
+  "version": "1.0.0",
+  "description": "Server side for YouGen service",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nobiduke/YouGenServer.git"
+  },
+  "author": "nobiduke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nobiduke/YouGenServer/issues"
+  },
+  "homepage": "https://github.com/nobiduke/YouGenServer#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
